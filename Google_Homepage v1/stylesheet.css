@@ -1,0 +1,144 @@
+
+
+body{
+    font-family: sans-serif, Arial;
+}
+
+.top {
+    line-height: 40px;
+    position: relative;
+    font-size: 15px;
+}
+
+#langue {
+    color: #00f;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #3c3c3c;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.navbar-top {
+    display: block;
+    text-align: right;
+    padding:15px 30px;
+}
+
+.navbar-top a{
+    padding: 0 10px;
+}
+
+.content{
+    grid-area: content;
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 20px;
+    padding-top: 110px;
+}
+
+
+.logo {
+    height: auto;
+    width: auto;
+    padding-bottom: 20px;
+}
+
+.searchbar {
+    border-radius: 30px;
+    width: 500px;
+    height: 50px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+#search {
+    border: 0;
+    height: auto;
+    width: 470px;
+    padding-left: 15px;
+}
+
+.buttons {
+    justify-content: center;
+    display: flex;
+    padding-top: 25px;
+}
+
+.buttons button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 0 18px;
+    line-height: 27px;
+    margin: 11px 4px;
+    height: 36px;
+    color: #5F6368;
+    min-width: 54px;
+    text-align: center;
+}
+
+.buttons button:hover {
+    border: 1px solid #c6c6c6;
+    color: #262626;
+}
+
+
+.langue {
+    text-align: center;
+    color: #808080;
+    padding-top: 20px;
+    font-size: 13px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+    color: #808080;
+}
+
+
+#bottom-bar {
+    display: grid;
+    grid-template-areas: "bottom-left bottom-right";
+    background-color: #f2f2f2;
+}
+
+#location {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 13px 0 13px 30px;
+    border-top: 1px solid #D3D3D3 ;
+    border-bottom: 1px solid #D3D3D3 ;
+}
+
+#bottom-right {
+    text-align: right;
+    padding: 13px 30px 13px 0;
+} 
+
+#bottom-right a {
+    padding-left: 13px;
+}
+
+#bottom-left {
+    text-align: left;
+    padding: 13px 0 13px 30px;
+}
+
+#bottom-left a {
+    padding-right: 13px;
+}
+
+
